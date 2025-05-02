@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD88055B2DC51A47008E6DBD /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88055A2DC51A47008E6DBD /* ToDoItem.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BD88053A2DC51638008E6DBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BD88052C2DC51636008E6DBD /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8805392DC51638008E6DBD /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8805432DC51638008E6DBD /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD88055A2DC51A47008E6DBD /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		BD8805232DC51636008E6DBD = {
 			isa = PBXGroup;
 			children = (
+				BD88055A2DC51A47008E6DBD /* ToDoItem.swift */,
 				BD88052E2DC51636008E6DBD /* ToDoList */,
 				BD88053C2DC51638008E6DBD /* ToDoListTests */,
 				BD8805462DC51638008E6DBD /* ToDoListUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD88055B2DC51A47008E6DBD /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
